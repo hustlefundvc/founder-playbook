@@ -1,7 +1,8 @@
 ---
 name: forwardable-intro
+version: 1.1.0
 description: >
-  Guide a founder through writing warm, forwardable intro-request emails — the kind a VC, advisor, or existing investor asks for instead of just requesting intros. Produces a two-layer email: a short cover note to the connector, plus a forwardable blurb addressed to the target investor (investor-specific opener, a problem-first two-line company summary, a team bullet, a traction bullet, an optional founder-decided raise/terms line, and a deck link). Works for one investor or a whole list — a personalized blurb per requested intro. Use ANY TIME a founder wants an intro request or "forwardable blurb/email," is prepping fundraise outreach, or wants intros through friends, advisors, or their cap table. Trigger on "help me write an intro email," "forwardable blurb," "I need an intro to [investor]," "make this forwardable," "a VC asked me to send a blurb," or a list of investor names. Walk the founder through it conversationally — don't dump a generic template.
+  Guide a founder through writing warm, forwardable intro-request emails — the kind a VC, advisor, or existing investor asks for instead of just requesting intros. Produces a two-layer email: a short cover note to the connector, plus a forwardable blurb addressed to the target investor (investor-specific opener, a problem-first two-line company summary, an optional why-now line, a team bullet, a traction bullet, an optional founder-decided raise/terms line, and a deck link). Works for one investor or a whole list — a personalized blurb per requested intro. Use ANY TIME a founder wants an intro request or "forwardable blurb/email," is prepping fundraise outreach, or wants intros through friends, advisors, or their cap table. Trigger on "help me write an intro email," "forwardable blurb," "I need an intro to [investor]," "make this forwardable," "a VC asked me to send a blurb," or a list of investor names. Walk the founder through it conversationally — don't dump a generic template.
 ---
 
 # Forwardable Intro
@@ -26,15 +27,13 @@ Two layers in one email:
 ```
 Hi [Investor first name],
 
-[OPENER — one or two specific, genuine lines about THEM: a recent piece they
-wrote, a post, a portfolio bet, a podcast take — and why it connects to what
-you're building. Not generic flattery.]
+[OPENER — one or two specific, genuine lines about THEM: a recent piece they wrote, a post, a portfolio bet, a podcast take — and why it connects to what you're building. Not generic flattery.]
 
-[COMPANY IN ~2 LINES — start with the problem: the why and how big it is (that's
-the market), then how you're solving it.]
+[COMPANY IN ~2 LINES — start with the problem: the why and how big it is (that's the market), then how you're solving it.]
 
-- [TEAM — why this team is uniquely suited to go after this. Founder-market fit,
-  not a résumé.]
+[WHY NOW — optional but powerful: the technological, regulatory, or cultural shift that makes this the moment for this company. One crisp line. Only include if it's real and specific.]
+
+- [TEAM — why this team is uniquely suited to go after this. Founder-market fit, not a résumé.]
 - [TRACTION — the single most impressive *true* signal of momentum.]
 
 [OPTIONAL raise/terms line — only if the founder opts in (see below).]
@@ -50,9 +49,7 @@ And the cover note that sits above it:
 ```
 Hey [Connector],
 
-Saw you're connected to [Investor] at [Firm] — I'd love to chat with them about
-what we're building. Mind forwarding the note below? Everything they'd need is
-in there.
+Saw you're connected to [Investor] at [Firm] — I'd love to chat with them about what we're building. Mind forwarding the note below? Everything they'd need is in there.
 
 [Thanks line]
 [Founder name]
@@ -95,6 +92,21 @@ Lead with the **problem**: what's broken, for whom, and how big it is — the si
 **Weak:** "We've built an AI-powered platform for restaurants to manage their operations."
 **Strong:** "Independent restaurants run on 7+ disconnected tools and still lose ~30% of margin to bad inventory and scheduling decisions. We give them one system that makes those calls automatically."
 
+### Why now (optional, but it can be the strongest line)
+The best forwardable intros answer "why is this the moment?" — the shift that just cracked this market open. Investors fund timing as much as ideas, so when there's a real why-now, name it in a single crisp line tied directly to the company.
+
+It's usually some combination of:
+- **Technological change** — a new model capability, a cost curve that just bent, infrastructure that finally exists.
+- **Regulatory change** — a new law or rule that creates demand or removes a blocker.
+- **Cultural change** — a behavior shift that makes people ready for this now when they weren't before.
+
+Coaching notes:
+- Only include it if it's genuine and specific. A vague "AI is booming" line is worse than nothing.
+- Tie the shift directly to why the company wins *because* of it — the change should create the exact demand the company serves.
+- If there's no real why-now, leave it out. Don't manufacture one.
+
+**Example (regulatory):** "A new law is about to open angel investing to thousands of first-time investors — a wave of people who'll suddenly need education and community to actually deploy capital. That's the gap we fill." The shift creates the demand; the company is built to serve it.
+
 ### Team bullet
 Answer "why *you*, and why *now*." Founder-market fit: the specific insight, experience, or unfair advantage that makes this team the right one. Not a list of logos.
 
@@ -123,10 +135,12 @@ Short, warm, frictionless. Name the target, state the ask, signal that everythin
 ---
 
 ## Multiple investors
-The company core (problem/solution, team, traction, raise, deck) is reusable. Only the **opener** — and sometimes the cover note's connector — changes per target. Given a list, build the core once, then generate a personalized opener + cover note for each investor, and deliver them as a labeled set the founder can work through. A single name just produces one. Don't water down the personalization to save effort: each opener must reference something genuinely specific to that investor.
+The company core (problem/solution, why-now, team, traction, raise, deck) is reusable. Only the **opener** — and sometimes the cover note's connector — changes per target. Given a list, build the core once, then generate a personalized opener + cover note for each investor, and deliver them as a labeled set the founder can work through. A single name just produces one. Don't water down the personalization to save effort: each opener must reference something genuinely specific to that investor.
 
 ## Output format
 Deliver the finished email(s) as copy-paste-ready text, with the cover note and the forwardable blurb clearly separated (a divider line between them) so the connector can grab just the forwardable part. For multiple targets, label each block with the investor's name.
+
+**Formatting — this matters for paste fidelity.** Write each paragraph as one continuous line with no manual line breaks inside it. Separate blocks with a single blank line only. Hard-wrapping lines mid-paragraph breaks badly when pasted into email clients like Superhuman or Gmail — every line break becomes a visible break the founder has to clean up by hand. Let the email client handle wrapping.
 
 After delivering, offer: tightening any section, a softer or more direct tone, or adding more investors to the set.
 
@@ -145,9 +159,7 @@ After delivering, offer: tightening any section, a softer or more direct tone, o
 ```
 Hey Sam,
 
-Saw you're connected to Priya at Foundry — I'd love to chat with her about what
-we're building at Mise. Mind forwarding the note below? Everything she'd need is
-in there. Really appreciate it.
+Saw you're connected to Priya at Foundry — I'd love to chat with her about what we're building at Mise. Mind forwarding the note below? Everything she'd need is in there. Really appreciate it.
 
 — Alex
 
@@ -155,15 +167,13 @@ in there. Really appreciate it.
 
 Hi Priya,
 
-Your recent piece on vertical software for "unsexy" SMBs is exactly the bet we're
-making — the messier the back office, the bigger the opening.
+Your recent piece on vertical software for "unsexy" SMBs is exactly the bet we're making — the messier the back office, the bigger the opening.
 
-Independent restaurants juggle 7+ disconnected tools and still bleed ~30% of
-margin to bad inventory and scheduling calls. Mise gives them one system that
-makes those calls for them.
+Independent restaurants juggle 7+ disconnected tools and still bleed ~30% of margin to bad inventory and scheduling calls. Mise gives them one system that makes those calls for them.
 
-- I ran ops for a 40-location restaurant group and watched this problem cost us
-  real money every week — we're building the tool we wished we'd had.
+Restaurant margins have never been thinner, and off-the-shelf AI is finally good enough to make these calls reliably — the tooling that wasn't possible two years ago is now table stakes.
+
+- I ran ops for a 40-location restaurant group and watched this problem cost us real money every week — we're building the tool we wished we'd had.
 - 12 paying locations, $9K MRR growing ~20% MoM.
 
 Deck: [add link]
@@ -172,4 +182,4 @@ Would love to find 20 minutes if there's interest.
 Alex
 ```
 
-(Note: the opener references a real, specific piece — never invent one. If you can't find a genuine hook, leave a clearly-marked placeholder for the founder to fill.)
+(Note: the opener references a real, specific piece — never invent one. If you can't find a genuine hook, leave a clearly-marked placeholder for the founder to fill. The why-now line here is technological; drop it if there isn't a real shift to point to.)
