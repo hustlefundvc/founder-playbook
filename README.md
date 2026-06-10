@@ -1,6 +1,8 @@
 # Founder Playbook
 
-Open-source [Claude](https://claude.ai) skills for founders — practical tools for the work of building and raising. Curated by Haley Bryant.
+The Founder Playbook turns the tips and tricks founders usually learn the hard way into tactical [Claude](https://claude.ai) skills you can use to win customers, build your company, and fundraise.
+
+Open-source and built by Hustle Fund.
 
 Raising is hard enough. The fastest intros happen when you make it effortless for the people who already believe in you — friends, advisors, your current cap table — to help. These skills are built to do exactly that.
 
